@@ -1,30 +1,55 @@
-# Simple Notes App for TWS Community
-This is a simple notes app built with React and Django.
+ Docker Notes App 🚀
 
-## Requirements
-1. Python 3.9
-2. Node.js
-3. React
+ 📌 About the Project
+This project is a simple notes application that I worked on to understand how Docker works in real-world applications.
 
-## Installation
-1. Clone the repository
-```
-git clone https://github.com/LondheShubham153/django-notes-app.git
-```
+The main goal was to learn how to containerize an application and run multiple services (backend and database) using Docker Compose on a cloud instance.
 
-2. Build the app
-```
-docker build -t notes-app .
-```
+🎥 Demo Video
+[Watch Video](https://drive.google.com/file/d/1CFKy4n7E9BWQ-r_vgRHbwVgKE_XgOuGs/view?usp=sharing)
 
-3. Run the app
-```
-docker run -d -p 8000:8000 notes-app:latest
-```
+---
 
-## Nginx
+ 📸 Screenshots
 
-Install Nginx reverse proxy to make this application available
+### Application UI
+![App](app.png)
 
-`sudo apt-get update`
-`sudo apt install nginx`
+### Docker Containers Running
+![Docker](docker.png)
+
+### Docker Compose File
+![Compose](compose.png)
+
+---
+
+ 🎯 What I Learned
+- How to use Docker and Docker Compose  
+- Running multiple containers together  
+- Basic container networking  
+- Deploying application on AWS EC2  
+- Managing application using terminal commands  
+
+---
+
+ ⚙️ Tech Stack
+- Docker  
+- Docker Compose  
+- Python (Django)  
+- MySQL  
+- AWS EC2  
+
+---
+
+ 🚀 Features
+- Add notes through UI  
+- Multi-container setup (backend + database)  
+- Accessible using public IP  
+- Simple and clean structure  
+
+---
+
+ 🖥️ How to Run the Project
+
+```bash
+docker compose up
