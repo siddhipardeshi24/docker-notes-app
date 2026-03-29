@@ -13,13 +13,13 @@ The main goal was to learn how to containerize an application and run multiple s
  📸 Screenshots
 
 ### Application UI
-![App](app.png)
+![App](app.png.png)
 
 ### Docker Containers Running
-![Docker](docker.png)
+![Docker](docker.png.png)
 
 ### Docker Compose File
-![Compose](compose.png)
+![Compose](compose.png.png)
 
 ---
 
